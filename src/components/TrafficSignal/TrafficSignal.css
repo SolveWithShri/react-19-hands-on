@@ -1,0 +1,32 @@
+.signal-list {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.signal {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.active {
+    border: 2px solid gray;
+}

@@ -1,6 +1,8 @@
-import "./App.css";
 import { Counter } from "./components/Counter/Counter";
+import TrafficSignal from "./components/TrafficSignal/TrafficSignal";
 import TransferList from "./components/TransferList/TransferList";
+
+import "./App.css";
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
         </div>
         <div className="card">
           <TransferList />
+        </div>
+        <div className="card">
+          <TrafficSignal />
         </div>
       </div>
     </>
