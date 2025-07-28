@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  padding: 2em;
+  border: 1px solid blueviolet;
+  border-radius: 1rem;
+}
