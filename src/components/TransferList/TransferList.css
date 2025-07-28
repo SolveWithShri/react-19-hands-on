@@ -1,6 +1,27 @@
 .transfer-list {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: normal;
     flex-direction: column;
+}
+
+.transfer-list-main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.list-wrapper {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.list-actions {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.action {
+
 }
